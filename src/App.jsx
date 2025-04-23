@@ -1,8 +1,9 @@
+import React, { useState } from "react";
+
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import News from "./News";
-import { useState } from "react";
 
 function App() {
   const [page, setPage] = useState('home');

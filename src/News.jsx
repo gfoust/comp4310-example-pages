@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function News({back}) {
   return (
@@ -7,7 +8,7 @@ export default function News({back}) {
         This is the news page.
       </p>
       <p>
-        <a href="#" onClick={back}>Back</a>
+        <a href="#" onClick={back}>Home</a>
       </p>
     </news-page>
   )

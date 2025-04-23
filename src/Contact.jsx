@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function Contact({back}) {
   return (
@@ -7,7 +8,7 @@ export default function Contact({back}) {
         This is the contact page.
       </p>
       <p>
-        <a href="#" onClick={back}>Back</a>
+        <a href="#" onClick={back}>Home</a>
       </p>
     </contact-page>
   )

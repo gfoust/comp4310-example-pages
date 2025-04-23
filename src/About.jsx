@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function About({back}) {
   return (
@@ -7,7 +8,7 @@ export default function About({back}) {
         This is the about page.
       </p>
       <p>
-        <a href="#" onClick={back}>Back</a>
+        <a href="#" onClick={back}>Home</a>
       </p>
     </about-page>
   )
